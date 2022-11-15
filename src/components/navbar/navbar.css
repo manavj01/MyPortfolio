@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+.myself{
+   font-size: medium; 
+}
+.myself:hover{
+    color: rgb(250, 208, 22);
+}
+section {
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    list-style: none;
+}
+
+a:hover {
+    color: rgb(250, 208, 22);
+}
+
+
+a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+
+nav {
+    display: flex;
+    margin-right: 1rem;
+    align-items: center;
+}
+
+ul>li {
+    width: 30%;
+    font-size: 1.5rem;
+
+}
+
+header {
+    display: flex;
+    /* manages space horizontally */
+    justify-content: space-between;
+    /* manages space vertically */
+    align-items: center;
+    /* margin-right: 1rem; */
+    background-color: rgba(171, 246, 229, 0.649);
+
+}
+
+nav>a {
+    color: inherit;
+}
+
+
+header h1 {
+    margin-left: 2rem;
+}

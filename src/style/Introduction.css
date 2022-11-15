@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+body {
+    /* font-family: 'Allura', cursive;
+    background-color:burlywood;
+    color: rgb(186, 34, 34);
+    font-size:larger */
+    /* background-image: 
+    linear-gradient(
+        to left bottom, #2f2a2c, #4a3141, #5f3a5f,
+         #6c4583, #6a56ad, #5e6ac7, #477edf, #0092f5, 
+         #00a6f5, #00b6e9, #00c3d6, #25cdc2); */
+
+}
+
+section{
+    /* border: 10px solid gray; */
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container{
+    /* border: 10px solid gray; */
+    max-width: 700px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    
+}
